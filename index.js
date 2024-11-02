@@ -13,8 +13,7 @@ app.use(cors(corsOptions));
 const {initializeDatabase}= require('./db/db.connect')
 
 const Book= require('./models/books.models')
-const { error } = require('console')
-const { release } = require('os')
+
 
 app.use(express.json())
 
